@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+/*general changes*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #404040;
+}
+
+/*end of general changes*/
+/*video*/
+.video-container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+}
+
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.video_content {
+  position: absolute;
+  top: 20%;
+  font-size: 5rem;
+  color: white;
+  z-index: 5;
+  opacity: 0;
+  animation-name: top_cars;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes top_cars {
+  0% {
+    left: -60%;
+    opacity: 0;
+  }
+
+  100% {
+    left: 5%;
+    opacity: 1;
+  }
+}
+
+/*end of video*/
+/*geniral car styling*/
+.car_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  margin-top: 15rem;
+  padding: 5rem;
+  gap: 5rem;
+}
+
+.odd_element_one {
+  text-align: center;
+  font-family: Jomhuria, cursive;
+  font-size: 4rem;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.even_element_two {
+  text-align: center;
+  font-family: Jomhuria, cursive;
+  font-size: 4rem;
+  width: 100%;
+  display: block;
+}
+.play {
+  font-size: 2rem;
+  position: relative;
+  right: 5%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+
+
+h1 {
+  color: red;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: baseline;
+  transition: all 0.5s ease 0s;
+}
+li:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+}
+
+.hide_style {
+  color: red;
+  position: relative;
+  top: 3rem;
+  right: 10rem;
+  margin-bottom: 2rem;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 2rem;
+}
+
+.hide_style_price {
+  color: red;
+  position: relative;
+  top: 3rem;
+  right: 5rem;
+  margin-bottom: 2rem;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 2rem;
+}
+/*end of geniral car styling*/
+/*car 1*/
+.about_img_1 {
+  position: relative;
+  top: 5rem;
+  transform: scale(1.3);
+}
+
+.hide_1 {
+  display: none;
+}
+
+.show_1 {
+  display: block;
+}
+
+.hide_price_1 {
+  display: none;
+}
+
+.show_price_1 {
+  display: block;
+}
+/*end of car 1*/
+/*car 2*/
+.about_img_2 {
+  position: relative;
+  top: 5rem;
+  transform: scale(1.3);
+}
+
+.hide_2 {
+  display: none;
+}
+
+.show_2 {
+  display: block;
+}
+
+.hide_price_2 {
+  display: none;
+}
+
+.show_price_2 {
+  display: block;
+}
+/*end of car 2*/
+/*car 3*/
+.about_img_3 {
+  position: relative;
+  top: 5rem;
+  transform: scale(1.3);
+}
+
+.hide_3 {
+  display: none;
+}
+
+.show_3 {
+  display: block;
+}
+
+.hide_price_3 {
+  display: none;
+}
+
+.show_price_3 {
+  display: block;
+}
+/*end of car 3*/
+/*car 4*/
+.about_img_4 {
+  position: relative;
+  top: 5rem;
+  transform: scale(1.3);
+}
+
+.hide_4 {
+  display: none;
+}
+
+.show_4 {
+  display: block;
+}
+
+.hide_price_4 {
+  display: none;
+}
+
+.show_price_4 {
+  display: block;
+}
+/*end of car 4*/
+/*car 5*/
+.about_img_5 {
+  position: relative;
+  top: 5rem;
+  transform: scale(1.3);
+}
+
+.hide_5 {
+  display: none;
+}
+
+.show_5 {
+  display: block;
+}
+
+.hide_price_5 {
+  display: none;
+}
+
+.show_price_5 {
+  display: block;
+}
+/*end of car 5*/
